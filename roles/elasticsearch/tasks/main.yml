@@ -30,5 +30,5 @@
     src: elasticsearch.j2
     dest: "/etc/elasticsearch/elasticsearch.yml"
   notify:
-    - start elasticsearch
+    - restart elasticsearch
 ...
