@@ -1,0 +1,7 @@
+---
+- name: Installing the Elastic Stack
+  hosts: elk
+  roles:
+    - elasticsearch
+    - logstash
+    - kibana

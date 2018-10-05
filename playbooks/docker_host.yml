@@ -1,0 +1,6 @@
+---
+- name: Guarantee Docker installation at the host
+  hosts: docker
+  roles:
+    - docker
+...

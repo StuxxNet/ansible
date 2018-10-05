@@ -1,0 +1,14 @@
+---
+# handlers file for kibana
+- name: start kibana
+  service:
+    name: kibana
+    state: started
+- name: stop logstash
+  service:
+    name: kibana
+    state: stop
+- name: restart logstash
+  service:
+    name: kibana
+    state: restart

@@ -1,0 +1,5 @@
+---
+- name: Executing HostsFile role
+  hosts: all
+  roles:
+    - hostfile

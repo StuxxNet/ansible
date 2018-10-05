@@ -1,0 +1,4 @@
+---
+# defaults file for elasticsearch
+network_host: "172.16.1.248"
+host_port: "9200"
