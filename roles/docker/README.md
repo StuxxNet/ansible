@@ -3,21 +3,6 @@ Docker Installation Role
 
 Role to install Docker at Debian flavor machines
 
-Requirements
-------------
-
-This role does not have any requirement
-
-Role Variables
---------------
-
-This role does not have any variable
-
-Dependencies
-------------
-
-This roles does not have any dependency
-
 Example Playbook
 ----------------
 
@@ -35,4 +20,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Please contact me if you have any doubt at ramonboorges@gmail.com, or tweet to me at @RamonBoorges
