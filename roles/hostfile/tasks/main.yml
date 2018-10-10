@@ -2,7 +2,7 @@
 # tasks file for hostfile
 - name: Guarantee the /etc/hosts file of ther server
   copy:
-    src: "hosts"
+    src: "hostsfile"
     dest: "/etc/hosts"
     owner: "root"
     group: "root"

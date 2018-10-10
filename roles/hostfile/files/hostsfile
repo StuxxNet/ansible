@@ -1,0 +1,17 @@
+#Update done with Ansible
+#05.10.2018 - 14:03
+
+#IPv4 Mapping
+127.0.0.1 localhost
+172.16.1.149 automation
+172.16.1.72 docker
+52.67.151.28 apache
+52.67.248.193 elk
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
